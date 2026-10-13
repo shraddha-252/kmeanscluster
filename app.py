@@ -57,9 +57,9 @@ if st.button("Predict"):
 
     st.subheader("Prediction Results")
     if prediction == 1:
-        st.success("Prediction: Class 1 (Control Group)")
+        st.success("Prediction: (Control Group)")
     else:
-        st.error("Prediction: Class 2 (Patient Group)")
+        st.error("Prediction: (Patient Group)")
 
     st.write(f"**Confidence Level (Control):** {probabilities[0]:.2%}")
     st.write(f"**Confidence Level (Patient):** {probabilities[1]:.2%}")
