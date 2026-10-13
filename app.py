@@ -61,5 +61,5 @@ if st.button("Predict"):
     else:
         st.error("Prediction: Class 2 (Patient Group)")
 
-    st.write(f"**Confidence Level (Class 1 - Control):** {probabilities[0]:.2%}")
-    st.write(f"**Confidence Level (Class 2 - Patient):** {probabilities[1]:.2%}")
+    st.write(f"**Confidence Level (Control):** {probabilities[0]:.2%}")
+    st.write(f"**Confidence Level (Patient):** {probabilities[1]:.2%}")
